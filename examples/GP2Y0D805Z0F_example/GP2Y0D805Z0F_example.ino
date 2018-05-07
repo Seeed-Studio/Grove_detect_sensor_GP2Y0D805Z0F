@@ -39,9 +39,12 @@ void setup()
 void loop()
 {
 	short val=0;
-	//val=analogRead(SENSOR);
 	val=digitalRead(SENSOR);
 	Serial.print("val=");
 	Serial.println((int)val);
+	if(0==val)
+	{
+		Serial.println("Sensor is triggered!!");
+	}
 	delay(1000);
 }
