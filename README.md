@@ -9,7 +9,8 @@ diode) and signal processing circuit.
 
 Usage:
 ========
-**Working principle:Three wires,VCC,GND and signal.The signal wire output low when a object exists in the specified distance range(0.5cm-5cm).Otherwise stays high.**
+**Working principle:Three wires,VCC,GND and signal.The signal wire output low when a object exists in the specified distance range(0.5cm-5cm).Otherwise stays high.**  
+
 Download this sketch to the arduino base-board and connect the sensor.Open the serial with boudrate 115200,Then observe the log.
 
 
